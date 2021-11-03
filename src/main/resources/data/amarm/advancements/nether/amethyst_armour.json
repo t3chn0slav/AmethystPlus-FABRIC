@@ -1,0 +1,43 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "title": "Cover Me in Amethyst",
+    "description": "Get a full set of Amethyst armour",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:nether/netherite_armor",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "amarm:amethyst_boots"
+            ]
+          },
+          {
+            "items": [
+              "amarm:amethyst_leggings"
+            ]
+          },
+          {
+            "items": [
+              "amarm:amethyst_chestplate"
+            ]
+          },
+          {
+            "items": [
+              "amarm:amethyst_helmet"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}
